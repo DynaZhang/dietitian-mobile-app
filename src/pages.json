@@ -6,7 +6,6 @@
         "navigationBarTitleText": "首页",
         "h5": {
           "titleNView": {
-            "autoBackButton": true,
             "buttons": [
               {
                 "type": "close",
@@ -35,13 +34,6 @@
             "autoBackButton": true,
             "buttons": [
               {
-                "type": "back",
-                "color": "#fff",
-                "fontSize": "32px",
-                "float": "left",
-                "fontWeight": "bold"
-              },
-              {
                 "type": "menu",
                 "color": "#fff",
                 "fontSize": "32px",
@@ -60,13 +52,6 @@
           "titleNView": {
             "autoBackButton": true,
             "buttons": [
-              {
-                "type": "back",
-                "color": "#fff",
-                "fontSize": "32px",
-                "float": "left",
-                "fontWeight": "bold"
-              },
               {
                 "type": "menu",
                 "color": "#fff",
@@ -87,12 +72,43 @@
             "autoBackButton": true,
             "buttons": [
               {
-                "type": "back",
+                "type": "menu",
                 "color": "#fff",
                 "fontSize": "32px",
-                "float": "left",
                 "fontWeight": "bold"
-              },
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "h5": {
+          "titleNView": {
+            "autoBackButton": true,
+            "buttons": [
+              {
+                "type": "menu",
+                "color": "#fff",
+                "fontSize": "32px",
+                "fontWeight": "bold"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/register/index",
+      "style": {
+        "navigationBarTitleText": "报名检查",
+        "h5": {
+          "titleNView": {
+            "autoBackButton": true,
+            "buttons": [
               {
                 "type": "menu",
                 "color": "#fff",

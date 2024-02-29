@@ -87,7 +87,7 @@ import { ref } from "vue";
 const currentTab = ref(0);
 const items = ref(["报考指南", "就业流程", "报名流程"]);
 
-const handleClickItem = (e) => {
+const handleClickItem = (e: { currentIndex: number }) => {
   currentTab.value = e.currentIndex;
 };
 </script>
