@@ -11,6 +11,14 @@
       <view class="label">我已同意</view>
       <view class="link-text">《用户协议》</view>
     </view>
+    <toast 
+      v-if="showToast" 
+      type="info" 
+      :position="{top: 990, left: 132}" 
+      text="请确认用户协议" 
+      duration="3000"
+      @close="handleCloseToast" 
+    />
   </view>
 </template>
 
@@ -19,8 +27,16 @@ import { ref } from "vue";
 import logoIcon from "../../static/icons/logo.png";
 import selectedIcon from "../../static/icons/selected.png";
 import unSelectedIcon from "../../static/icons/unSelected.png";
+import Toast from '../../components/toast/index.vue';
 
 const isSelected = ref<boolean>(false);
+const showToast = ref<boolean>(false);
+const handleShowToast = () => {
+  showToast.value = true;
+}
+const handleCloseToast = () => {
+  showToast.value = false;
+};
 const handleSelect = () => {
   isSelected.value = !isSelected.value;
 };

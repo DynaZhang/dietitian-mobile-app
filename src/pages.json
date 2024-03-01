@@ -119,6 +119,82 @@
           }
         }
       }
+    },
+    {
+      "path": "pages/register/fail",
+      "style": {
+        "navigationBarTitleText": "报名",
+        "h5": {
+          "titleNView": {
+            "autoBackButton": true,
+            "buttons": [
+              {
+                "type": "menu",
+                "color": "#fff",
+                "fontSize": "32px",
+                "fontWeight": "bold"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/register/pay",
+      "style": {
+        "navigationBarTitleText": "报名支付",
+        "h5": {
+          "titleNView": {
+            "autoBackButton": true,
+            "buttons": [
+              {
+                "type": "menu",
+                "color": "#fff",
+                "fontSize": "32px",
+                "fontWeight": "bold"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/register/introduce",
+      "style": {
+        "navigationBarTitleText": "班型介绍",
+        "h5": {
+          "titleNView": {
+            "autoBackButton": true,
+            "buttons": [
+              {
+                "type": "menu",
+                "color": "#fff",
+                "fontSize": "32px",
+                "fontWeight": "bold"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/login/agreement",
+      "style": {
+        "navigationBarTitleText": "用户协议",
+        "h5": {
+          "titleNView": {
+            "autoBackButton": true,
+            "buttons": [
+              {
+                "type": "menu",
+                "color": "#fff",
+                "fontSize": "32px",
+                "fontWeight": "bold"
+              }
+            ]
+          }
+        }
+      }
     }
   ],
   "globalStyle": {

@@ -52,7 +52,7 @@
             />
           </uni-forms-item>
         </uni-forms>
-        <view class="register-btn">报名检查</view>
+        <view class="register-btn" @click="handleCheckRegister">报名检查</view>
       </view>
     </view>
   </view>
@@ -67,6 +67,7 @@ const formData = ref({
   profession: "",
   workCareer: "",
 });
+const showSuccessPopup = ref(false);
 const careerData = ref([
   {
     text: "高中/中专",
