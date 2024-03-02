@@ -195,13 +195,32 @@
           }
         }
       }
+    },
+    {
+      "path": "pages/register/waitpay",
+      "style": {
+        "navigationBarTitleText": "待付款",
+        "h5": {
+          "titleNView": {
+            "autoBackButton": true,
+            "buttons": [
+              {
+                "type": "menu",
+                "color": "#fff",
+                "fontSize": "32px",
+                "fontWeight": "bold"
+              }
+            ]
+          }
+        }
+      }
     }
   ],
   "globalStyle": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#43B9A6",
-    "backgroundColor": "#f7f7f7"
+    "backgroundColor": "#F7F7F7"
   },
   "tabBar": {
     "borderStyle": "#E3E3E8",
