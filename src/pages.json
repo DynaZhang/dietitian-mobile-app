@@ -214,6 +214,44 @@
           }
         }
       }
+    },
+    {
+      "path": "pages/upload/uploadMsg1",
+      "style": {
+        "navigationBarTitleText": "信息1/2",
+        "h5": {
+          "titleNView": {
+            "autoBackButton": true,
+            "buttons": [
+              {
+                "type": "menu",
+                "color": "#fff",
+                "fontSize": "32px",
+                "fontWeight": "bold"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/upload/uploadMsg2",
+      "style": {
+        "navigationBarTitleText": "信息2/2",
+        "h5": {
+          "titleNView": {
+            "autoBackButton": true,
+            "buttons": [
+              {
+                "type": "menu",
+                "color": "#fff",
+                "fontSize": "32px",
+                "fontWeight": "bold"
+              }
+            ]
+          }
+        }
+      }
     }
   ],
   "globalStyle": {

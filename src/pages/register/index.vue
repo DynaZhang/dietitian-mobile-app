@@ -114,6 +114,7 @@ const workCareerData = ref([
     value: 3,
   },
 ]);
+const handleCheckRegister = () => {};
 </script>
 
 <style lang="scss" scoped>
